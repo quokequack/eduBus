@@ -1,3 +1,6 @@
 [submodule "unimov-api"]
 	path = unimov-api
 	url = https://github.com/igorrochap/unimov-api
+[submodule "unimov-front"]
+	path = unimov-front
+	url = https://github.com/igorrochap/unimov-front
