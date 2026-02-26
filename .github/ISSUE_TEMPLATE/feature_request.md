@@ -1,6 +1,7 @@
 ---
 name: "✨ Feature"
 about: Sugerir uma nova funcionalidade
+title: "Feat: "
 labels: enhancement
 ---
 
