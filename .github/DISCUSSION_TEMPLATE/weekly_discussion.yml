@@ -2,18 +2,19 @@ title: "Resumo Semanal"
 labels: documentation
 body:
 - type: markdown
-  value: |
-    ## O que foi feito nessa semana:
+  attributes:
+    value: |
+      ## O que foi feito nessa semana:
 
-    - ✅ 
-    - ✅ 
-    - ✅ 
-    - ✅ 
+      - ✅ 
+      - ✅ 
+      - ✅ 
+      - ✅ 
 
-   ## O que fazer no próximo ciclo:
+     ## O que fazer no próximo ciclo:
 
-    - ⏭️ 
-    - ⏭️
-    - ⏭️ 
+      - ⏭️ 
       - ⏭️
-      - ⏭️
+      - ⏭️ 
+        - ⏭️
+        - ⏭️
