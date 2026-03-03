@@ -2,9 +2,9 @@ name: "Resumo semanal"
 title: "Resumo Semanal"
 labels: documentation
 body:
-- type: textarea
-  attributes:
-    label: "Resultados da semana..."
+  - type: textarea
+    attributes:
+      label: "Resultados da semana..."
   - type: markdown
     attributes:
       value: |
