@@ -56,9 +56,51 @@ Secretaria acompanha relatórios e frequência
 └── docs/        # Documentação e wiki
 ```
 
-## Como Rodar (em breve)
+## Setup
 
-> Instruções de setup serão adicionadas conforme o ambiente de desenvolvimento for configurado.
+### Clonando o repositório com os submódulos
+
+```bash
+git clone --recurse-submodules https://github.com/quokequack/unimov.git
+cd unimov
+```
+
+Se já clonou sem `--recurse-submodules`, inicialize os submódulos manualmente:
+
+```bash
+git submodule update --init --recursive
+```
+
+### Atualizando os submódulos
+
+Para atualizar todos os submódulos para o commit mais recente de cada branch:
+
+```bash
+git submodule update --remote --recursive
+```
+
+Para atualizar um submódulo específico:
+
+```bash
+git submodule update --remote unimov-api
+git submodule update --remote unimov-front
+```
+
+Após atualizar, registre as novas referências no repositório principal:
+
+```bash
+git add unimov-api unimov-front
+git commit -m "chore: atualiza submódulos"
+```
+
+### Estrutura dos submódulos
+
+| Submódulo | Repositório |
+|---|---|
+| `unimov-api` | https://github.com/igorrochap/unimov-api |
+| `unimov-front` | https://github.com/igorrochap/unimov-front |
+
+Consulte o README de cada submódulo para instruções específicas de execução.
 
 ## Wiki
 
